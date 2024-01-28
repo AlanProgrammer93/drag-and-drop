@@ -1,0 +1,71 @@
+* ** All elements border-box */ *,
+*:before,
+*::after {
+  box-sizing: border-box;
+}
+
+/*
+    ** Root element font size
+    ** No default margins and paddings
+*/
+html,
+body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+    **root elements display block
+*/
+html,
+body {
+  display: block;
+}
+
+/*
+    ** Body main style
+*/
+body {
+  line-height: 1.317101995;
+  scroll-behavior: smooth;
+}
+
+button:focus {
+  outline: 0;
+}
+
+img,
+embed,
+svg,
+audio,
+canvas,
+iframe,
+video {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+h1,
+h1,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+body {
+  background-color: #f4f4f5;
+  padding: 40px;
+  padding-top: 5%;
+  display: grid;
+  place-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  color: #3b3b53;
+  text-align: center;
+}
